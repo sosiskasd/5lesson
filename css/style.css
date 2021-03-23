@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding:0;
+    /*background: linear-gradient(110deg, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 50%) fixed; */
+}
+.header{
+    background-color:black;
+    height: 100px;;
+}
+.img{
+width:100%;
+padding:0;
+margin:0;
+}
+   .head_ul li{
+    color: rgb(255, 181, 181);
+    display: inline; 
+    margin-right: 5px; 
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    padding: 3px;
+ 
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.alpha_text{
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    color:rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button{text-decoration:none; text-align:center; 
+ padding:17px 53px; 
+ border:solid 1px #ff0000; 
+  
+ font:15px "Lucida Console", Monaco, monospace; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background:#ff00009f; 
+ -webkit-box-shadow:0px 0px 2px #bababa;  -moz-box-shadow: 0px 0px 2px #bababa;  box-shadow:0px 0px 2px #bababa;  
+  
+  }.button:active{
+ padding:17px 53px; 
+ border:solid 1px #000000; 
+  
+ font:20px "Lucida Console", Monaco, monospace; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background:#ff00008c; 
+ -webkit-box-shadow:0px 0px 2px #bababa;  -moz-box-shadow: 0px 0px 2px #bababa;  box-shadow:0px 0px 2px #bababa;
+  }
+  .global_div{
+    background: linear-gradient(105deg, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 50%) fixed;
+width:100%;
+height:100%;
+display: flex;
+flex-direction: row;
+margin-top: -4px;
+  }
+  .first{
+      width:450px;
+      background-color: rgba(255, 0, 0, 0);
+      display: flex;
+      flex-direction: row;
+      margin-left: 10%;
+  }
+  .second{
+      color:white;
+      width: 450px;
+      background-color:rgba(255, 255, 0, 0);
+            display: flex;
+      flex-direction: row;
+      margin-left:10%;
+  }
+  footer{
+      background-color: black;
+      color: white;
+            display: flex;
+      flex-direction: row;
+  }
+a{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-decoration:none;
+color:white;
+  }
+  a:hover{
+   color: rgb(255, 181, 181);
+    display: inline; 
+    margin-right: 5px; 
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    padding: 3px;
+  }
+  a{
+      text-decoration:none;
+  }
+  }
+  .help{
+      text-decoration::underline;
+  }
