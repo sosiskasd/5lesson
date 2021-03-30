@@ -63,6 +63,7 @@ flex-direction: row;
 margin-top: -4px;
   }
   .first{
+      text-align: center;
       width:450px;
       background-color: rgba(255, 0, 0, 0);
       display: flex;
@@ -99,7 +100,14 @@ color:white;
   a{
       text-decoration:none;
   }
-  }
   .help{
-      text-decoration::underline;
+      text-decoration:underline;
   }
+  .help1{
+      display: flex;
+      flex-direction: column;
+  }
+    /* <Link rel = "shortcut icon" href = "impg/favicon.ico" type = "image / x-icon">*/
+    
+
+  
